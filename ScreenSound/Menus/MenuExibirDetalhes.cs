@@ -22,7 +22,7 @@ internal class MenuExibirDetalhes : Menu
                 Console.WriteLine($"{album.Nome} -> {album.Media}");
             }
 
-            Console.WriteLine("Digite uma tecla para voltar ao menu principal");
+                Console.WriteLine("Digite uma tecla para voltar ao menu principal");
             Console.ReadKey();
             Console.Clear();
         }
